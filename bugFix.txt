@@ -1,3 +1,5 @@
 1. Here we fixed the bugs from just for testing line 1
 
 2. Fix some more bugs
+
+3. Fix some more bugs in bug-fix -3
