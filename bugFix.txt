@@ -12,3 +12,6 @@
 5. Fifth bug fixed
 
 // footer content 2024
+
+
+6. another fix mode for pink mode
