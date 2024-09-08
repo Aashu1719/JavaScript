@@ -1,3 +1,6 @@
 This is just a text file for some extra notes
 
 Apna college bhi JS ka liya acha hai
+
+// just add for merge-confict
+2025 footer note
