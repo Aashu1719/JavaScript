@@ -1,12 +1,12 @@
-let score = "Aashu";
+let score = null;
 
-// console.log(typeof score);
-// console.log(typeof(score));
+// console.log(typeof score); // string
+// console.log(typeof(score)); // string
 
-// let valueInNumber = Number(score)
+let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 
-// console.log(valueInNumber);
+// console.log(valueInNumber); NAN
 
 // If we convert "33" :- Its converting in a number
 // If we convert "33abc" :- Its not convert and its gives NaN
@@ -17,10 +17,13 @@ let score = "Aashu";
 
 
 // 2.  Try to convert numbers, string and other things boolean
-let isLoggedIn = -100;
+let isLoggedIn = undefined
 
 let booleanConversion = Boolean(isLoggedIn);
 // console.log(booleanConversion);
+// console.log(typeof booleanConversion);
+
+
 
 // If we are try with 1 or any numbers its gives us true;
 // If we are try with 0 its ives us false
@@ -30,7 +33,7 @@ let booleanConversion = Boolean(isLoggedIn);
 
 
 // 3. Try to convert String with some other things
-let someNumber = 33
+let someNumber = undefined
 
 let stringConversion = String(someNumber)
 // console.log(stringConversion); // 33
@@ -45,7 +48,7 @@ let stringConversion = String(someNumber)
 // ************************************** Operations ********************************************************
 let value = 3;
 let negValue = -value;
-console.log(negValue); // -3
+// console.log(negValue); // -3
 
 // some small operations
 // console.log(2+2); 4
@@ -61,29 +64,29 @@ let str1 = "Hello";
 let str2 = "Aashu";
 
 let str3 = str1 + str2;
-console.log(str3); // Hello Aashu
+// console.log(str3); // Hello Aashu
 
 
 // 2. Some basic conversion on string
 
-// 1. If we take first variable and second one is a number its take total as a string
-console.log("1" + 2); // 12
+// 1. If we take first variable string and second one is a number its take total as a string
+// const a = console.log("1" + 2); // 12
 
 //2. If we first as a number and second as a String in that case also its takes its a String only
-console.log(1 + "2"); // 12
+// console.log(1 + "2"); // 12
 
 // 3. If first no. as a string then the whole back number its take as a string
-console.log("1" + 2 + 2); // 122
+// console.log("1" + 2 + 2); // 122
 
 // If first variable as a number the other as a string so first its take as a number then as string
-console.log(1 + 4 + "3"); // 53
+// console.log(1 + 4 + "3"); // 53
 
 
 // Increment statemnet
 let gameCounter = 100;
 gameCounter++;
 
-console.log(gameCounter); // 101
+// console.log(gameCounter); // 101
 
 
 
