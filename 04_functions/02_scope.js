@@ -13,12 +13,12 @@ if (true) {
     
 }
 
-// console.log(a); // gives error
+console.log(a); // gives error
 // console.log(b); // gives error
 // console.log(c); // print 30 :- jabki ye to if ka ander that matlab iska scope if mai hi lhtm hota hai isa yahan aana hi nhi chaiye tha. 
 
 // Notes :- humara pass do scope hot hai 1. block scope jo bhi cheej hum block ka ander likhta hain usa kehta hai lock scope. 
-// 2. jo bhi cheej hum block ka bahar likhta hai usa kehta hai gloabal scope global scope available hot hai block scope mai but block scope avaiballe hi hota hai global scope mai. 
+// 2. jo bhi cheej hum block ka bahar likhta hai usa kehta hai gloabal scope global scope available hot hai block scope mai but block scope avaiballe nhi hota hai global mai. 
 
 // console.log(a); // 300
 

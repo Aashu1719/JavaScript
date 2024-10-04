@@ -129,7 +129,6 @@ const user =
 // create a function
 function handleObject(anyObject) {
     console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
-    
 }
 
 // handleObject(user); // call the function and pass the object  
@@ -142,6 +141,8 @@ handleObject({
     username : "sam", 
     price : "399"
 })
+// console.log(handleObject());
+
 
 
 // passing the array in the function 

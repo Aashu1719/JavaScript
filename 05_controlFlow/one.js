@@ -29,10 +29,10 @@ if (true) {
 // 8. !== ye bhi negative value ko strictly check kart hai like {(2!=="2") : true}
 
 // // example at 8
-// if (2!=="2") {
-//     console.log("Hello");
-//     // Hello
-// }
+if (2!=="2") {
+    console.log("Hello");
+    // Hello
+}
 
 // ex :- 2 of === if else
 
@@ -90,7 +90,7 @@ if (true) {
     
 // }
 
-// Op :- 1200
+// Op :- less than 1200
 
 
 // step 5 
