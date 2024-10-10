@@ -1,14 +1,12 @@
 // For of
-// ex :- 1
-// array ka andr multiple objects
 
-const arr = [1, 2, 3, 4, 5]
-
-// ex :- 2
+// explanantion : 
 // for (const element of object) {
 //     // yahan pe element jo hai wo ek varibale hia jo hum declare karenga.. and jo oject hai uska simple sa matlab ye hai ki hum kiska upar us loop ko lagana chahte hain, just for ex :- (yahan pe hum arr ke uper isa lagana chahte hain so hum value yahan pass kar denga)
-// }
+// } 
 
+// ex :- 1 : simple array and is array ma hum for of loop lgana wala hai
+const arr = [1, 2, 3, 4, 5]
 for (const num of arr) {
     
     // console.log(num);
@@ -21,7 +19,7 @@ for (const num of arr) {
 // 5
 
 
-// ex :- 3
+// ex :- 2
 // Ex :- apply that forof loop in string
 const greetings = "Hello World";
 for (const greet of greetings) {
@@ -46,16 +44,16 @@ for (const greet of greetings) {
 
 // ######################## ########################### ##################
 // Step 2 :- Maps
-// Its simple an object :- isma value jo hai wo key value pair ma aata hai, and isma sirf unique values hi hoti hai
+// DEF : Its simple an object : isma value jo hai wo key value pair ma aata hai, and isma sirf unique values hi hoti hai 
 
+// declarartion 
 const map = new Map()
-
 map.set('IN', "India")
 map.set('USA', "Unites States of America"),
 map.set('FR', "France")
 
 // step 2.1 : 
-// agr hu isma dubara sa ('IN', "India ko print karenga to ye iska nahi lega and yahan pe kuch bhi nhi hoga, because ye sirf unique values ko leta hai, and ye jis order mai hum value ko transfer karenga usi order mai ye value ko print karega")
+// agr hum isma dubara sa ('IN', "India ko write kar ka print karenga to ye usko nahi lega and yahan pe kuch bhi nhi hoga, because ye sirf unique values ko leta hai, and ye jis order mai hum value ko transfer karenga usi order mai ye value ko print karega")
 
 // console.log(map);
 // Map(3) {
@@ -64,7 +62,7 @@ map.set('FR', "France")
 //     'FR' => 'France'
 //   }
 
-// step 2.3 :- now we apply forof on maps
+// step 2.2 :- now we apply forof on maps
 
 for (const kes of map) {
     // console.log(map); 
@@ -76,7 +74,8 @@ for (const kes of map) {
     //   }
 }
 
-// step 2.4 :- print in different format or in key value format
+// step 2.4 :- print in different format or in key value format : iska liya hum bus square bracket ko add kar denga and its gives the value in key value format. 
+
 for (const [keysss, valuesss] of map) {
     console.log(keysss, ':-', valuesss);
 

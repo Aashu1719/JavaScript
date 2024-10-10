@@ -1,4 +1,5 @@
-// Ex 1 :- isma hum dekhta hain ki for each loop jo hai wo value kya return karta hai kuch karta bhi hai ye nahi karta.
+// step 1: - example and explanantion
+// Ex 1 :- isma hum dekhta hain ki jab hum for each loop ko variable ma save karta hai to wo jo value hai wo  kya return karta hai kuch karta bhi hai ye nahi karta.
 
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
